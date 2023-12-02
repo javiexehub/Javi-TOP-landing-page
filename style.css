@@ -37,6 +37,7 @@
         .welcome {
             padding: 100px 0;
             display: flex;
+            flex-wrap: wrap;
         }
             .left-box,
             .right-box {
@@ -49,11 +50,25 @@
                 flex-flow: column;
                 justify-content: space-between;
                 align-items: start;
+                min-width: 560px;
             }
+
+            .welcome .right-box {
+                
+                padding: 20px;
+                display: flex;
+                flex-flow: column;
+                justify-content: space-between;
+                align-items: start;
+                min-width: 560px;
+            }
+
             .welcome h1 {
                 font-size: 48px;
                 font-weight: bold;
-                color: #f9faf8
+                color: #f9faf8;
+                min-width: 525px;
+                max-width: 566px;
             }
 
             .welcome p {
@@ -63,7 +78,8 @@
             }
 
             .welcome img {
-                width: 100%;
+                width: 550px;
+                margin: 0px auto;
             }
 
             .welcome button {
@@ -93,6 +109,7 @@
         display: flex;
         justify-content: center;
         gap: 50px;
+        flex-wrap: wrap;
         
     }
         
@@ -136,6 +153,7 @@
         flex-flow: column;
         justify-content: center;
         align-items: center;
+        min-width: 413px;
     }
 
         .quote {

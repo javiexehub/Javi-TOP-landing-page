@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section-1 {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+    .center-section {
+        flex: 0 0 80%;
+    }
+        .navbar ul {
+            display: flex;
+            list-style: none;
+            padding: 25px 0;
+            gap: 15px;
+            font-size: 20px;
+            justify-content: space-between;
+        }
+
+            .logo {
+                margin-right: auto;
+                color: #f9faf8;
+                font-size: 24px;
+            }
+
+            .navbar a {
+                color: #E5e7eb;
+                font-size: 18px;
+                text-decoration: none;
+            }
+
+        .welcome {
+            padding: 100px 0;
+            display: flex;
+        }
+            .left-box,
+            .right-box {
+                flex: 1;
+            }
+
+            .welcome .left-box {
+                padding: 20px;
+                display: flex;
+                flex-flow: column;
+                justify-content: space-between;
+                align-items: start;
+            }
+            .welcome h1 {
+                font-size: 48px;
+                font-weight: bold;
+                color: #f9faf8
+            }
+
+            .welcome p {
+                color: #E5e7eb;
+                font-size: 18px;
+                margin: 20px 0;
+            }
+
+            .welcome img {
+                width: 100%;
+            }
+
+            .welcome button {
+                padding: 8px 15px;
+                background-color: #3882f6;
+                border-radius: 5px;
+                border: none;
+                color: white;
+                font-size: 18px;
+                font-weight: bolder;
+                
+            }
+
+.section-2 {
+    padding: 50px 0 200px 0;
+}
+
+    .information-header {
+        font-size: 36px;
+        font-weight:800;
+        color: #1f2937;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .info {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        
+    }
+        
+        .info a {
+            text-decoration: none;
+        }
+
+        .info-cards{
+            width: 200px;
+            text-align: center;
+        }
+
+        .container {
+            height: 200px;
+            border: 3px solid #3882f6;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            flex-flow: column;
+        }
+
+        .container img {
+            flex: 1 1 auto;
+            border-radius: 8px;
+            height: 190px;
+        }
+
+        .info-cards p {
+            color: #1f2937;
+            font-size: 18px;
+            font-weight: 520;
+        }
+
+.section-3 {
+    background-color: #E5e7eb;
+    padding: 200px;
+}
+
+    .quote-flexer {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .quote {
+            font-size: 36px;
+            font-style: italic;
+            color:  #1f2937BB;
+            font-weight: light;
+        }
+
+        .quotee {
+            color: #1f2937;
+            font-size: 25px;
+            font-weight: 900;
+            align-self: end;
+            margin-top: 40px;
+            margin-right: 170px;
+        }
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 250px;
+}
+
+    .form {
+        background-color: #3882f6;
+        padding: 50px;
+        display: flex;
+        flex: 1;
+        border-radius: 13px;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    
+        .form h2 {
+            color: #f9faf8;
+        }
+
+        .form p {
+            color: #E5e7eb;
+        }
+
+        .form button {
+            color: #f9faf8;
+            background-color: #3882f6;
+            border: 2px solid #f9faf8;
+            border-radius: 10px;
+            padding: 10px 40px;
+            font-size: 18px;
+        }
+
+        .form .left-box {
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            flex-flow: column;
+            min-width: 245px;
+            padding-left: 100px;
+            flex: 3;
+        }
+
+        .form .right-box {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            min-width: 245px;
+            padding-right: 150px;
+            flex: 1;
+        }
+
+footer {
+    background-color: #1f2937;
+    padding: 40px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+}
